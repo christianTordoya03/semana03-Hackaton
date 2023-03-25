@@ -17,6 +17,10 @@ form input{
     margin-bottom: 10px;
 }
 
+form input:invalid {
+    border: 2px dashed red;
+  }
+
 form button{
     width: 496px;
     height: 30px;
@@ -25,6 +29,13 @@ form button{
     background-color: aqua;
     border: none;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 
 form h1{
     color: aqua;
