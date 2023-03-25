@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(176, 26, 145);
+}
+
+form{
+    background-color: white;
+    margin: auto;
+    padding: 1%;
+    width: 500px;
+    border-radius: 1%;
+}
+
+form input{
+    border-radius: 5px;
+    width: 490px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+form textarea{
+    border-radius: 5px;
+    width: 490px;
+    height: 95px;
+    margin-bottom: 10px;
+}
+
+form button{
+    width: 496px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(176, 26, 145);
+    border: none;
+}
+
+h1{
+    color: rgb(176, 26, 145);
+}
+h2{
+    font-size: 18px;
+    text-decoration: none;
+}
